@@ -23,102 +23,110 @@
 
     <div class="page">
         <header class="header">
-            <nav class="nav">
-                <!--         <img src="./images/logo.png" alt="Practicum Library Logo" class="logo" /> logo -->
-                <!-- ***** add nav__links ***** -->
-                <ul class="nav__links">
-                    <li><a href="#menu" class="nav__links-item">Menu</a></li>
-                    <li><a href="#recipes" class="nav__links-item">Recipes</a></li>
-                    <li><a href="#reservation" class="nav__links-item">Book a table</a></li>
-                    <li><a href="#contact" class="nav__links-item">Contacts</a></li>
-                </ul>
-                <!--         dont forget to add href to link  -->
-            </nav>
-            <h1 class="header__title">Specialty coffee in the Practicum Library</h1>
-            <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy
-                vibes to help you get creative.</p>
-            <img src="#" alt="coffe shop" class="header__image" />
-            <div class="footer__columns">
-                <div class="footer__column">
-                    <p class="header__address"> 200 Success Avenue, The Town of Practicum</p>
-                </div>
 
-                <div class="header-footer__column header-footer__column_hours">
-                    <p class="header-footer__column-heading">Hours</p>
-                    <ul class="header-footer__list">
-                        <li class="header-footer__list-item">
-                            <p> Monday – Friday (10:00 – 19:00)</p>
-                        </li>
-                        <li class="header-footer__list-item">
-                            <p>Saturday – Sunday (11:00 – 18:00)</p>
-                        </li>
-                    </ul>
+            <nav class="nav">
+                <img src="./images/logo_coffee_shop.svg" alt="logo" class="logo">
+                <ul class="nav nav__link">
+                    <li><a href="#menu" class="nav__link-item">Menu</a></li>
+                    <li><a href="#recipes" class="nav__link-item">Recipes</a></li>
+                    <li><a href="#reservation" class="nav__link-item">Book a table</a></li>
+                    <li><a href="#contact" class="nav__link-item">Contacts</a></li>
+                </ul>
+
+            </nav>
+
+            <img src="./images/inside_coffee_shop.png" alt="coffe shop photo" class="header__image">
+            <h1 class="header__title"> <span class="header__span-accent">Specialty coffee</span> <br> in the Practicum
+                Library</h1>
+            <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and
+                <br>thecozy
+                vibes to help you get creative.
+            </p>
+
+            <div class="header__footer">
+                <div class="header__footer__hours">
+                    <h5 class="header__paragraph">Hours:</h5>
+                    <h5 class="header__paragraph">Monday – Friday (10:00 – 19:00)</h5>
+                    <h5 class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</h5>
+
+                </div>
+                <div class="header__footer__address">
+                    <p class="header__paragraph">
+                        200 Success Avenue, The Town of Practicum
+                    </p>
                 </div>
             </div>
+            <!-- 
+                <div class="header__address">
+                    <p class="header__paragraph">
+                        200 Success Avenue, The Town of Practicum
+                    </p>
+                </div> -->
+
+
         </header>
+
         <section id="menu" class="menu">
             <h1 class="menu__title">Menu</h1>
-            <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use
+            <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use<br>
                 biodegradable cups. All
                 teas from our collection are $2/cup.</p>
             <div class="menu__cards">
                 <div class="card">
+
                     <h3 class="card__title">Filter</h3>
-                    <p class="card__list-item"> Regular (12 oz)</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $1</p>
-                    <p class="card__list-item"> Large (16 oz)</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $1.25</p>
-                    <p class="card__list-item"> XL (20 oz)</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $1.5</p>
-                    <p class="card__list-item"> Party-size (24 oz, decaf)</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $1.75</p>
-                    <p class="card__list-item"> Iced Coffee (16 oz)</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $1.25</p>
-                </div>
-                <div class="card">
-                    <h3 class="card__title">Espresso</h3>
-                    <p class="card__list-item"> Macchiato</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $2.25</p>
-                    <p class="card__list-item"> Cortado</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $2.5</p>
-                    <p class="card__list-item"> Mocha</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $3</p>
-                    <p class="card__list-item"> Sunrise in the Bay Area (decaf)</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $10</p>
+                    <p class="card__list-item"> Regular (12 oz)<span class="card__list-divider">___________</span>$1
+                    </p>
+                    <p class="card__list-item"> Large (16 oz)<span class="card__list-divider">____</span>$1.25
+                    </p>
+                    <p class="card__list-item"> XL (20 oz)<span class="card__list-divider">___________</span>$1.5
+                    </p>
+                    <p class="card__list-item"> Party-size (24 oz, decaf)<span
+                            class="card__list-divider">___________</span>$1.75
+                    </p>
+                    <p class="card__list-item"> Iced Coffee (16 oz)<span
+                            class="card__list-divider">___________</span>$1.75
+                    </p>
 
                 </div>
                 <div class="card">
-                    <h3 class="card__title">Baked Goods</h3>
-                    <p class="card__list-item"> Almond Croissant</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $2</p>
-                    <p class="card__list-item"> Banana Bread </p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $1.75</p>
-                    <p class="card__list-item"> Key Lime Pie</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $3</p>
-                    <p class="card__list-item"> Blue Velvet Cake</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $3.75</p>
-                    <p class="card__list-item"> Web Cookie </p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $2</p>
-                    <p class="card__list-item"> Fresh Bug’uette</p>
-                    <p class="card__list-divider">_</p>
-                    <p class="card__list-item"> $0.25</p>
+
+                    <h3 class="card__title">Espresso</h3>
+                    <p class="card__list-item"> Macchiato<span class="card__list-divider">___________</span>$2.25
+                    </p>
+                    <p class="card__list-item"> Cortado<span class="card__list-divider">___________</span>$2.5
+                    </p>
+                    <p class="card__list-item">Mocha<span class="card__list-divider">___________</span>$3
+                    </p>
+                    <p class="card__list-item">Sunrise in the Bay Area (decaf)<span
+                            class="card__list-divider">___________</span>$10
+                    </p>
+
                 </div>
+                <div class="card">
+
+                    <h3 class="card__title">Baked Goods</h3>
+                    <p class="card__list-item"> Almond Croissant<span class="card__list-divider">___________</span>$2
+                    </p>
+                    <p class="card__list-item"> Banana Bread<span class="card__list-divider">___________</span>$1.75
+                    </p>
+                    <p class="card__list-item">Key Lime Pie<span class="card__list-divider">___________</span>$3
+                    </p>
+                    <p class="card__list-item">Blue Velvet Cake<span class="card__list-divider">___________</span>$3.75
+                    </p>
+                    <p class="card__list-item">Web Cookie<span class="card__list-divider">___________</span>$2
+                    </p>
+                    <p class="card__list-item">Fresh Bug’uette<span class="card__list-divider">___________</span>$0.25
+                    </p>
+
+                </div>
+
+
 
             </div>
+
+
+
         </section>
         <section id="recipes" class="recipes">
             <h1 class="recipes__title">Recipes</h1>
@@ -139,7 +147,7 @@
         </section>
         <form id="reservation" class="reservation">
             <h1 class="reservation__title">Book a table</h1>
-            <div class="reservation__form ">
+            < class="reservation__form ">
                 <form class="form">
                     <fieldset class="form__fieldset">
                         <label for="name" class="form__label">Name</label>
@@ -165,6 +173,7 @@
                         <label for="checkbox" id="checkbox" class="form__label">i agree with the terms of use</label>
                     </fieldset>
                 </form>
+
                 <section id="contact" class="about">
                     <h2 class="about__title">About the coffe shop</h2>
                     <div class="about__content">
@@ -209,8 +218,8 @@
                     <p class="footer__copyrights">© 2022 Tamer Jb</p>
                 </footer>
 
-            </div>
-
+    </div>
+    </div>
 </body>
 
 </html>

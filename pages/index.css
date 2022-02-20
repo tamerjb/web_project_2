@@ -1,4 +1,13 @@
 @import url(../vendor/normalize.css);
+@import url(./header.css);
+@import url(./menu.css);
+@import url(./recipes.css);
+@import url(./reservation.css);
+@import url(about.css);
+@import url(footer.css);
+
+
+
 
 .page {
     margin: 0 auto;
@@ -10,5 +19,5 @@
         serif, 'Times New Roman', Times, serif, serif;
     font-size: 16px;
     line-height: 20px;
-
+    position: relative;
 }
