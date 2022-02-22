@@ -4,9 +4,11 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    background-color: #fff;
-
     box-sizing: border-box;
+    height: 100vh;
+    margin: 0 auto;
+
+
 }
 
 .recipes__title {

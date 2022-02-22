@@ -1,16 +1,16 @@
 .header {
 
     background-image: url('../images/background_header.svg');
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-color: #fff;
     position: relative;
     box-sizing: border-box;
-    height: 80vh;
-
-
+    height: 100vh;
+    overflow: auto;
+    margin: 0 auto;
+    z-index: -1;
 }
 
 .logo {
@@ -80,33 +80,36 @@
 }
 
 .header__image {
-    z-index: 0;
+
     width: 646px;
     height: 568px;
     position: absolute;
     right: 5px;
     top: 124px;
+    z-index: -1;
 
 }
 
 /* use flex box to align  */
 .header__footer {
+
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+    align-items: flex-end;
     position: absolute;
     bottom: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+
+
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
     font-size: 16px;
-    align-items: flex-end;
-
-
 
 }
 
-.header__footer__hours {
+.header__footer__type__hours {
     margin: 0 0 40px 80px;
 }
 
@@ -116,6 +119,6 @@
     margin-top: 0;
 }
 
-.header__footer__address {
-    margin: 0 80px 40px 0;
+.header__footer__type__address {
+    padding: 0 80px 40px 0;
 }
