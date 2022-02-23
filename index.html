@@ -147,33 +147,46 @@
 
         </section>
         <section id="reservation" class="reservation">
-            <h1 class="reservation__title">Book a table</h1>
-            <div class="reservation__form ">
-                <form class="form">
+
+            <div class="form">
+
+                <form class="form reservation__form">
+                    <h1 class="reservation__title">Book a table</h1>
+
+
                     <fieldset class="form__fieldset">
-                        <label for="name" class="form__label">Name</label>
+                        <label for="name" class="form__label">Name *</label>
                         <input type="text" class="form__input" id="name" name="name" placeholder="Name Surname"
                             required />
-                        <label for="number" class="form__label">Number of guests</label>
+
+                        <label for="number" class="form__label">Number of guests *</label>
                         <input type="number" class="form__input" id="number" name="number" min="1" max="8"
                             placeholder="1-8" required />
 
-                        <label for="date" class="form__label">Date & time </label>
-                        <input type="datetime" class="form__input form__input_date" id="date" name="date" required
-                            placeholder="dd.mm.yyy" />
-                        <label for="email" class="form__label">Your Email </label>
+
+                        <label for="date" class="form__label">Date & time * </label>
+                        <input type="date" class="form__input form__input_date" id="date" name="date" required />
+
+
+                        <label for="email" class="form__label">Your Email *</label>
                         <input type="email" class="form__input" id="email" name="email" required
                             placeholder="email@email.com" />
 
+
+                        <fieldset class="form__fieldset">
+                            <button type="submit" class="form__button">Book a table</button>
+                        </fieldset>
+                        <fieldset class="form__fieldset">
+                            <input type="checkbox" class="form__input form__input-checkbox" name="agree" id="agree">
+
+                            <label for="agree" id="agree" class="form__label">i agree with the terms of
+                                use</label>
+                        </fieldset>
+
                     </fieldset>
-                    <fieldset class="form__fieldset">
-                        <button type="submit" class="form__button">Book a table</button>
-                    </fieldset>
-                    <fieldset class="form__fieldset">
-                        <input type="checkbox" class="form__checkbox" name="checkbox" id="checkbox">
-                        <label for="checkbox" id="checkbox" class="form__label">i agree with the terms of use</label>
-                    </fieldset>
+
             </div>
+
         </section>
 
         <section id="contact" class="about">

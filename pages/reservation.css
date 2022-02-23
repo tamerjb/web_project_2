@@ -4,93 +4,150 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 100vh;
+    background-color: #d9e7ff;
+    z-index: -1;
     box-sizing: border-box;
-    text-align: center;
     margin: 0 auto;
 }
 
 .reservation__title {
-    font-weight: bold;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
     font-size: 33px;
-    margin-bottom: 10px;
+    padding: 100px 0 80px 0;
+}
+
+.form {
+    margin: 0 auto;
 }
 
 .reservation__form {
-    margin: 0 auto;
-    max-width: 500px;
-    max-height: 700px;
-    background: #ffffff;
-    border: 1px solid #cfcfcf;
-    box-sizing: border-box;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 30px;
 
-    font-family: "Inter",
-        sans-serif;
+    width: 385px;
+
 }
+
+
+
 
 .form__fieldset {
-
+    display: block;
     border: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
 }
+
+.form__fieldset:last-child {
+
+    margin: 32px 0 120px;
+    text-align-last: center;
+
+}
+
+
+
 
 .form__label {
-    display: block;
+
     font-weight: 500;
+    font-style: normal;
     font-size: 16px;
     line-height: 20px;
-    text-align: left;
-    margin-bottom: 12px;
-    margin-top: 32px;
+    padding-bottom: 8px;
+
+
 }
 
-.form__checkbox[for="remember-me"] {
-    display: inline;
-    margin-left: 12px;
-    vertical-align: middle;
-    font-weight: 400;
+.form__label[for="agree"] {
+
+
+    color: #ff0000;
+
 }
+
+
+
+
 
 .form__input {
     background: #ffffff;
     border: 1px solid #cfcfcf;
-    box-sizing: border-box;
+    width: 385px;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 8px 0 32px;
 
-}
 
-.form__input[type="text"],
-.form__input[type="password"] {
-    border-radius: 30px;
-    min-width: 400px;
-    min-height: 60px;
 }
 
 .form__input::placeholder {
-    font-size: 16px;
+    font-size: 20px;
     color: #8b8b8b;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 20px;
 }
 
 .form__input[type="checkbox"] {
     border-radius: 4px;
-    min-width: 28px;
-    min-height: 28px;
-    vertical-align: middle;
+    max-width: 8px;
+    max-height: 8px;
+    opacity: 100%;
+    margin: 0 12px 0;
+
+
+
 }
+
+
+
+.form__input:hover[type="checkbox"] {
+    border-radius: 4px;
+    max-width: 8px;
+    max-height: 8px;
+    opacity: 70%;
+
+
+}
+
+
+
+.form__input[type="checkbox"]:checked+.form__label {
+
+
+    color: #2f71e5;
+
+}
+
+.form__button {
+    margin: 0 auto;
+    border-radius: 4px;
+
+    width: 100%;
+}
+
 
 .form__button[type="submit"] {
     min-width: 117px;
     min-height: 60px;
     background: #2f71e5;
-    border-radius: 100px;
+    border-radius: 4px;
     color: #ffffff;
     font-size: 18px;
     border: none;
+    opacity: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    transition: transform .4s ease-in;
 }
 
-.form__input[type="text"]:focus,
-.form__input[type="password"]:focus {
-    outline-color: #2f71e5;
-    outline-style: solid;
-    outline-width: 1px;
+.form__button[type="submit"]:hover {
+    opacity: 70%;
+    transform: scale(1.2);
 }
