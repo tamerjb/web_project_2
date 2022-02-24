@@ -111,7 +111,7 @@
 
 }
 
-.header__footer__type__hours {
+.header__footer-type-hours {
     margin: 0 0 40px 80px;
 }
 
@@ -121,6 +121,6 @@
     margin-top: 0;
 }
 
-.header__footer__type__address {
+.header__footer-type-address {
     padding: 0 80px 40px 0;
 }
