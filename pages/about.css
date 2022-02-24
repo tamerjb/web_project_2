@@ -1,9 +1,74 @@
+@keyframes pulse {
+    0% {
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 0.6;
+
+    }
+
+    100% {
+        transform: scale(1.2);
+
+
+    }
+}
+
 .about {
     background-color: #0A2850;
     color: #fff;
     position: relative;
     box-sizing: border-box;
+    background-size: cover;
+    z-index: -2;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.about__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about__title {
+    margin: 100px 0 0 80px;
+    height: 150px;
+    width: 300px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+
+
+}
+
+.about__content {
+    padding: 119px 80px 173px 0;
+}
+
+.about__paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about__circle {
+    display: inline-block;
+    background-color: #2f80ed;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
     z-index: -1;
-    margin: 0 auto;
-    width: 100vh;
+    position: absolute;
+    top: -152px;
+    left: -129px;
+}
+
+.about__circle_animation_blurred {
+    animation: pulse 1.3s ease-in-out infinite;
 }
