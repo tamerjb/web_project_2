@@ -8,6 +8,7 @@
     box-sizing: border-box;
     color: #fff;
     z-index: -1;
+    padding-bottom: 100px;
 
 }
 
@@ -72,9 +73,6 @@
     width: 600px;
 }
 
-.card:last-child {
-    margin-bottom: 100px;
-}
 
 .card__title {
     margin-bottom: 32px;

@@ -8,6 +8,7 @@
   z-index: -1;
   box-sizing: border-box;
   margin: 0 auto;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
@@ -30,7 +31,6 @@
 
 .reservation__form {
   width: 385px;
-  padding-bottom: 120px;
 }
 
 .form__fieldset {
