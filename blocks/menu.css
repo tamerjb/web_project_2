@@ -7,8 +7,6 @@
     position: relative;
     box-sizing: border-box;
     color: #fff;
-    margin: 0 auto;
-    height: 100vh;
     z-index: -1;
 
 }
@@ -21,6 +19,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Inter',
+        sans-serif,
+        Arial,
+        sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 44px;
@@ -36,7 +38,12 @@
     max-width: 780px;
     margin: 0 auto;
     padding-bottom: 100px;
-
+    font-family: 'Noto Serif',
+        serif,
+        'Times New Roman',
+        Times,
+        serif,
+        serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -63,15 +70,18 @@
     justify-content: flex-start;
     flex-direction: column;
     width: 600px;
-
-
-
 }
 
-
+.card:last-child {
+    margin-bottom: 100px;
+}
 
 .card__title {
     margin-bottom: 32px;
+    font-family: 'Inter',
+        sans-serif,
+        Arial,
+        sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -81,6 +91,12 @@
 .card__list-item {
     display: inline-flex;
     margin-bottom: 16px;
+    font-family: 'Noto Serif',
+        serif,
+        'Times New Roman',
+        Times,
+        serif,
+        serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -88,9 +104,6 @@
 
 }
 
-.card:last-child {
-    padding-bottom: 100px;
-}
 
 .card__list-divider {
     display: inline-flex;
