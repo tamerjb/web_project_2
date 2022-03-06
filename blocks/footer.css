@@ -6,19 +6,19 @@
 .footer__content {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-end;
 	padding: 60px 100px 108px 80px;
 }
 
 .footer__logo {
 	height: 32px;
 	width: 153px;
-	padding: 0 auto;
+	margin-right: auto;
+	margin-left: 0;
 }
 
 .footer__social-heading {
-	padding: 0 auto;
-	margin: 0 0 20px;
+
 	font-family: 'Inter',
 		sans-serif,
 		Arial,
@@ -27,14 +27,23 @@
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 20px;
+	margin-bottom: 20px;
+	padding-left: 40px;
 }
 
 .footer__list {
 	list-style-type: none;
+	margin: 0;
 }
 
 .footer__list-item {
 	padding-bottom: 16px;
+	transition: transform .4s ease-in;
+}
+
+.footer__list-item:hover {
+	transform: scale(1.2);
+
 
 }
 
