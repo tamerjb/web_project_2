@@ -18,7 +18,6 @@
 }
 
 .footer__social-heading {
-
 	font-family: 'Inter',
 		sans-serif,
 		Arial,
@@ -43,8 +42,6 @@
 
 .footer__list-item:hover {
 	transform: scale(1.2);
-
-
 }
 
 .footer__social-icon {
@@ -55,10 +52,6 @@
 .footer__social-link {
 	color: white;
 	text-decoration: none;
-	font-family: 'Inter',
-		sans-serif,
-		Arial,
-		sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -69,10 +62,6 @@
 	display: inline-block;
 	padding: 0 0 60px 80px;
 	margin: 0;
-	font-family: 'Inter',
-		sans-serif,
-		Arial,
-		sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;

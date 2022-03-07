@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-width: 600px;
+}
+
+.card__title {
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card__list-item {
+    display: inline-flex;
+    margin-bottom: 16px;
+    font-family: 'Noto Serif',
+        serif,
+        'Times New Roman',
+        Times;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 0;
+}
+
+.card__list-divider {
+    border-bottom: 0.5px solid #fff;
+    flex-grow: 3;
+    margin: 0;
+}

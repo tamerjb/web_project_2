@@ -1,18 +1,15 @@
 @keyframes pulse {
 	0% {
 		opacity: 0;
-
 	}
 
 	50% {
 		opacity: 0.6;
-
 	}
 
 	100% {
 		transform: scale(1.2);
 		opacity: 0;
-
 	}
 }
 
@@ -34,7 +31,6 @@
 }
 
 .about__title {
-
 	min-height: 150px;
 	max-width: 300px;
 	font-family: 'Inter',
@@ -47,6 +43,7 @@
 	line-height: 52px;
 	padding-top: 100px;
 	padding-left: 80px;
+	margin: 0;
 }
 
 .about__content {
