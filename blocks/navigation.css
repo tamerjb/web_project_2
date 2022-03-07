@@ -1,13 +1,19 @@
 .nav {
     display: flex;
-    flex-direction: row;
+    align-items: flex-start;
     justify-content: space-between;
+    margin: 0;
 }
 
 .nav__menu {
-    column-gap: 20px;
     list-style-type: none;
     margin: 30px 80px 0 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    column-gap: 20px;
+
+
 }
 
 .nav__menu-item {
@@ -15,7 +21,6 @@
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    padding-right: 20px;
     transition: transform .4s ease-in;
 }
 
