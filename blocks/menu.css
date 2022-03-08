@@ -48,5 +48,6 @@
     max-width: 1300px;
     gap: 100px;
     margin: 0 auto;
+    padding: 0;
     flex-wrap: wrap;
 }

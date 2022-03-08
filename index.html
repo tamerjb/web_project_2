@@ -39,16 +39,17 @@
 				vibes to help you get creative.
 			</p>
 			<div class="header__footer">
-				<ul class="header__footer-type-hours">
-					<li class="header__paragraph">Hours:</li>
-					<li class="header__paragraph">Monday – Friday (10:00 – 19:00)</li>
-					<li class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</li>
-				</ul>
-				<div class="header__footer-type-address">
-					<p class="header__paragraph">
-						200 Success Avenue, The Town of Practicum
-					</p>
+				<div>
+					<h4 class="header__paragraph-heading">Hours:</h4>
+					<ul class="header__footer-type-hours">
+						<li class="header__paragraph">Monday – Friday (10:00 – 19:00)</li>
+						<li class="header__paragraph">Saturday – Sunday (11:00 – 18:00)</li>
+					</ul>
 				</div>
+				<p class="header__footer-type-address">
+					200 Success Avenue, The Town of Practicum
+				</p>
+
 			</div>
 		</header>
 		<section id="menu" class="menu">
@@ -57,52 +58,61 @@
 				biodegradable cups. All
 				teas from our collection are $2/cup.</p>
 			<div class="menu__cards">
-				<div class="card">
+
+				<div>
 					<h3 class="card__title">Filter</h3>
-					<p class="card__list-item"> Regular (12 oz)<span class="card__list-divider"></span>$1
-					</p>
-					<p class="card__list-item"> Large (16 oz)<span class="card__list-divider"></span>$1.25
-					</p>
-					<p class="card__list-item"> XL (20 oz)<span class="card__list-divider"></span>$1.5
-					</p>
-					<p class="card__list-item"> Party-size (24 oz, decaf)<span class="card__list-divider"></span>$1.75
-					</p>
-					<p class="card__list-item"> Iced Coffee (16 oz)<span class="card__list-divider"></span>$1.75
-					</p>
+					<ul class="card">
+
+						<li class="card__list-item"> Regular (12 oz)<span class="card__list-divider"></span>$1
+						</li>
+						<li class="card__list-item"> Large (16 oz)<span class="card__list-divider"></span>$1.25
+						</li>
+						<li class="card__list-item"> XL (20 oz)<span class="card__list-divider"></span>$1.5
+						</li>
+						<li class="card__list-item"> Party-size (24 oz, decaf)<span
+								class="card__list-divider"></span>$1.75
+						</li>
+						<li class="card__list-item"> Iced Coffee (16 oz)<span class="card__list-divider"></span>$1.75
+						</li>
+					</ul>
 				</div>
-				<div class="card">
+				<div>
 					<h3 class="card__title">Espresso</h3>
-					<p class="card__list-item"> Macchiato<span class="card__list-divider"></span>$2.25
-					</p>
-					<p class="card__list-item"> Cortado<span class="card__list-divider"></span>$2.5
-					</p>
-					<p class="card__list-item">Mocha<span class="card__list-divider"></span>$3
-					</p>
-					<p class="card__list-item">Sunrise in the Bay Area (decaf)<span
-							class="card__list-divider"></span>$10
-					</p>
+					<ul class="card">
+
+						<li class="card__list-item"> Macchiato<span class="card__list-divider"></span>$2.25
+						</li>
+						<li class="card__list-item"> Cortado<span class="card__list-divider"></span>$2.5
+						</li>
+						<li class="card__list-item">Mocha<span class="card__list-divider"></span>$3
+						</li>
+						<li class="card__list-item">Sunrise in the Bay Area (decaf)<span
+								class="card__list-divider"></span>$10
+						</li>
+					</ul>
 				</div>
-				<div class="card">
+				<div>
 					<h3 class="card__title">Baked Goods</h3>
-					<p class="card__list-item"> Almond Croissant <span class="card__list-divider"></span>$2
-					</p>
-					<p class="card__list-item"> Banana Bread<span class="card__list-divider"></span>$1.75
-					</p>
-					<p class="card__list-item">Key Lime Pie<span class="card__list-divider"></span>$3
-					</p>
-					<p class="card__list-item">Blue Velvet Cake<span class="card__list-divider"></span>$3.75
-					</p>
-					<p class="card__list-item">Web Cookie<span class="card__list-divider"></span>$2
-					</p>
-					<p class="card__list-item">Fresh Bug’uette<span class="card__list-divider"></span>$0.25
-					</p>
+					<ul class="card">
+						<li class="card__list-item"> Almond Croissant <span class="card__list-divider"></span>$2
+						</li>
+						<li class="card__list-item"> Banana Bread<span class="card__list-divider"></span>$1.75
+						</li>
+						<li class="card__list-item">Key Lime Pie<span class="card__list-divider"></span>$3
+						</li>
+						<li class="card__list-item">Blue Velvet Cake<span class="card__list-divider"></span>$3.75
+						</li>
+						<li class="card__list-item">Web Cookie<span class="card__list-divider"></span>$2
+						</li>
+						<li class="card__list-item">Fresh Bug’uette<span class="card__list-divider"></span>$0.25
+						</li>
+					</ul>
 				</div>
 			</div>
-
 		</section>
 		<section id="recipes" class="recipes">
-			<p class="recipes__title">Recipes</p>
-			<h3 class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</h3>
+			<h2 class="recipes__title">Recipes</h2>
+			<p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
 			<div class="recipes__videos">
 				<div class="recipes__videos-item">
 					<iframe class="recipes__iframe" src="https://www.youtube.com/embed/j6VlT_jUVPc"
@@ -132,15 +142,15 @@
 					<input type="number" class="form__input" id="number" name="number" min="1" max="8" placeholder="1-8"
 						required />
 					<label for="date" class="form__label">Date & time * </label>
-					<input type="date" class="form__input form__input_date" id="date" name="date" required />
+					<input type="date" class="form__input" id="date" name="date" required />
 					<label for="email" class="form__label">Your Email *</label>
 					<input type="email" class="form__input" id="email" name="email" required
 						placeholder="email@email.com" />
 				</fieldset>
-				<fieldset class="form__fieldset form__fieldset-submit">
+				<fieldset class="form__fieldset">
 					<button type="submit" class="form__button">Book a table</button>
 				</fieldset>
-				<fieldset class="form__fieldset form__fieldset-agree">
+				<fieldset class="form__fieldset form__fieldset_type_checkbox">
 
 					<label for="agree" id="agree-label" class="form__label"><input type="checkbox"
 							class="form__input form__input-checkbox" name="agree" id="agree" required>i agree with the
@@ -181,15 +191,16 @@
 				<img src="./images/logo_practicum.svg" alt="Logo" class="footer__logo">
 				<div>
 
-					<p class="footer__social-heading">Social Media</p>
+					<h3 class="footer__social-heading">Social Media</h3>
 					<ul class="footer__list">
 						<li class=" footer__list-item">
-							<img src="./images/facebook_white.svg" alt="Facebook icon" class="footer__social-icon">
-							<a href="#" class="footer__social-link">Facebook</a>
+
+							<a href="#" class="footer__social-link"><img src="./images/facebook_white.svg"
+									alt="Facebook icon" class="footer__social-icon"><span>Facebook</span></a>
 						</li>
 						<li class="footer__list-item">
-							<img src="./images/instagram_white.svg" alt="Instagram icon" class="footer__social-icon">
-							<a href="#" class="footer__social-link">Instagram</a>
+							<a href="#" class="footer__social-link"><img src="./images/instagram_white.svg"
+									alt="Instagram icon" class="footer__social-icon"><span>Instagram</span></a>
 						</li>
 					</ul>
 				</div>
@@ -201,3 +212,5 @@
 </body>
 
 </html>
+
+<!-- thanks for your effort and time checking the project- reading every single line is  not a easy thing, appreciate your work :]  -->

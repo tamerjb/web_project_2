@@ -35,8 +35,7 @@
 	max-width: 300px;
 	font-family: 'Inter',
 		sans-serif,
-		Arial,
-		sans-serif;
+		Arial;
 	font-style: normal;
 	font-weight: 500;
 	font-size: 44px;
@@ -53,10 +52,8 @@
 
 .about__paragraph {
 	font-family: 'Noto Serif',
-		serif,
 		'Times New Roman',
 		Times,
-		serif,
 		serif;
 	font-style: normal;
 	font-weight: normal;

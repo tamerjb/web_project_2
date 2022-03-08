@@ -5,10 +5,12 @@
     justify-content: flex-start;
     flex-direction: column;
     min-width: 600px;
+    padding: 0;
+    margin: 0;
 }
 
 .card__title {
-    margin-bottom: 32px;
+    margin: 0 0 32px 0;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -17,7 +19,7 @@
 
 .card__list-item {
     display: inline-flex;
-    margin-bottom: 16px;
+    margin: 0 0 16px 0;
     font-family: 'Noto Serif',
         serif,
         'Times New Roman',
@@ -32,4 +34,5 @@
     border-bottom: 0.5px solid #fff;
     flex-grow: 3;
     margin: 0;
+    padding: 0;
 }
