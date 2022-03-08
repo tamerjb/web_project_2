@@ -1,4 +1,4 @@
-.card {
+.card .card__list {
     display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
@@ -33,6 +33,6 @@
 .card__list-divider {
     border-bottom: 0.5px solid #fff;
     flex-grow: 3;
-    margin: 0;
+    margin: 0 10px 0 10px;
     padding: 0;
 }

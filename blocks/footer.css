@@ -36,12 +36,9 @@
 
 .footer__list-item {
 	padding-bottom: 16px;
-	transition: transform .4s ease-in;
+
 }
 
-.footer__list-item:hover {
-	transform: scale(1.2);
-}
 
 .footer__social-icon {
 	padding-right: 10px;
@@ -55,6 +52,11 @@
 	font-weight: normal;
 	font-size: 16px;
 	line-height: 20px;
+	transition: .4s ease-in;
+}
+
+.footer__social-link:hover {
+	background-color: #c1c1c1;
 }
 
 .footer__copyright {

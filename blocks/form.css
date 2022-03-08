@@ -17,12 +17,7 @@
     padding: 0;
 }
 
-.form__fieldset-submit {
-    max-width: 385px;
-    margin: 0;
-    padding: 0;
-    max-height: 60px;
-}
+
 
 .form__fieldset_type_checkbox {
     max-width: 385px;
@@ -86,7 +81,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    transition: opacity .4s ease-in;
+    transition: opacity .1s linear;
 }
 
 .form__button:hover {

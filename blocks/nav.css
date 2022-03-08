@@ -22,9 +22,10 @@
     font-size: 16px;
     line-height: 20px;
     display: inline-block;
-    transition: transform .4s ease-in;
+    transition: .4s ease-in;
 }
 
 .nav__menu-item:hover {
-    transform: scale(1.2);
+    color:
+        #2F80ED;
 }
