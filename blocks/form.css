@@ -86,10 +86,9 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
-    transition: transform .4s ease-in;
+    transition: opacity .4s ease-in;
 }
 
 .form__button:hover {
     opacity: 70%;
-    transform: scale(1.2);
 }
